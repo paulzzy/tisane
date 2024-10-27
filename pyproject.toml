@@ -3,7 +3,10 @@ name = "tisane"
 version = "0.1.0"
 description = ""
 readme = "README.md"
-authors = ["Eunice Jun <eunice.m.jun@gmail.com>", "Audrey Seo <audreyleeseo@gmail.com>"]
+authors = [
+    { name = "Eunice Jun", email = "eunice.m.jun@gmail.com" },
+    { name = "Audrey Seo", email = "audreyleeseo@gmail.com" },
+]
 requires-python = ">=3.13"
 dependencies = [
     "coverage>=7.6.4",
